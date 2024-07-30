@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="math.js" defer></script>
+    <link rel="shortcut icon" href="calculadora.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="entrada">
+        <h1 id="encabezado">calculadora</h1>
+        <input type="number" id="parametro1" placeholder="parametro 1">
+        <input type="number" id="parametro2" placeholder="parametro 2">
+        <div class="container" id="botonesin">
+            <button id="suma" onclick="suma()">+</button>
+            <button id="resta" onclick="resta()">-</button>
+            <button id="multiplicacion" onclick="multiplicacion()">x</button>
+            <button id="division" onclick="division()">/</button>
+            <button id="potencia" onclick="potencia()">potencia</button>
+            <button id="raiz" onclick="raiz()">√</button>
+            <button id="valorAbsoluto" onclick="valorAbsoluto()">|x|</button>
+            <button id="random" onclick="random()">R</button>
+        </div>
+        <div class="container" id="botonesout">
+            <input type="text" id="resultado" placeholder="Resultado">
+            <button id="redonpiso" onclick="redonpiso()">floor</button>
+            <button id="redonround" onclick="redonround()">round</button>
+            <button id="redonceil" onclick="redonceil()">ceil</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/564x/d1/58/cd/d158cd981ffd78c09844c2567c68f63e.jpg");
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    background-image: url("https://i.pinimg.com/564x/cf/e0/dc/cfe0dc9fa013be5c564d52ffd0674776.jpg");
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1#encabezado {
+    font-size: 1.8em;
+    color: #94ec05e8;
+}
+
+p {
+    font-size: 1.2em;
+    color: #15fc00;
+}
+
+input[type="number"],
+input[type="text"] {
+    background-color: #6fe6d2b0;
+    color: #ffffff;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="number"]::placeholder,
+input[type="text"]::placeholder {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #5d16cf; 
+}
+
+button {
+    background-color: #2d0080e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #b30062;
+}
+
+#resultado {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    color: #00ff22;
+    margin-top: 20px;
+}
